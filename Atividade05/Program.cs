@@ -79,7 +79,7 @@ if (tipo == "AVE")
     {
         Console.Write("Digite se seu animal é não voador, nadador, de rapina: ");
         locomocao = Console.ReadLine().ToUpper();
-        if (locomocao == "NÃO VOADOR")
+        if (locomocao == "NAO VOADOR")
         {
             Console.Write("Digite se seu animal é tropical ou polar:");
             comida = Console.ReadLine().ToUpper();

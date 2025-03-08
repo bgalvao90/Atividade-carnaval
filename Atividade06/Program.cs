@@ -1,12 +1,10 @@
-﻿double S = 0;
-int A = 3;
-int B = 2;
+﻿
+ double S = 0;
 
-while (B <= 50)
-{
-    S += (double)A / B;
-    A += 2;
-    B++;
-}
+        for (int i = 1; i <= 50; i++)
+        {
+            S += (2.0 * i - 1) / i;
+        }
 
-Console.WriteLine(S.ToString("F2"));
+        Console.WriteLine($"O valor de S é: {S:F2}");
+ 

@@ -16,6 +16,10 @@ if (horasTrabalhadasMes > 160) {
 
 
 }
-
+else
+{
+    double salarioTotal = (salarioHora * horasTrabalhadasMes);
+    Console.WriteLine($"O salario total é: {salarioTotal}");
+}
 
 
